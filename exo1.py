@@ -11,4 +11,3 @@ print(type(life))
 damages = int(input('Dommages : '))
 # Afficher ensuite à l'utilisateur le nombre de points de vie restants
 print(f"Vie {life}, Dégâts {damages}, Points de vie restants : {life - damages}")
-print(("Points de vie restants : ") + str(life - damages))
